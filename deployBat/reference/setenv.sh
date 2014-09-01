@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export HPXS_HOME=./..
+export HPXS_HOME=`dirname $0`/..
 export BTOA_HOME=$HPXS_HOME
 
 export JAVA_HOME=$HPXS_HOME/jdk

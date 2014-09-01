@@ -1,6 +1,6 @@
 #!/bin/sh
-. setenv.sh
-. SetDomainProperties.sh
+. `dirname $0`/setenv.sh
+. `dirname $0`/SetDomainProperties.sh
 
 IFS=','
 LIST_OF_FND_APP=fndwar,bsf,uim
