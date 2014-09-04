@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.hp.btoe.dwh.dcs</groupId>
+	<artifactId>DataCollectorService</artifactId>
+	<name>Data Collector Service</name>
+	<description>Data Collector Service pom</description>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.hp.btoe.dwh</groupId>
+		<artifactId>DataWarehouse</artifactId>
+		<version>10.00.00-SNAPSHOT</version>
+	</parent>
+	<modules>
+		<module>dcs-common</module>
+		<module>extractor-sample</module>
+		<module>extractorSQL</module>
+		<module>dcs-web</module>
+	</modules>
+</project>

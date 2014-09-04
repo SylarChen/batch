@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.hp.btoe.dwh</groupId>
+	<artifactId>DataWarehouse</artifactId>
+	<name>DataWarehouse</name>
+	<description>Data Warehouse Parent pom</description>
+	<packaging>pom</packaging>
+
+	<parent>
+		<groupId>com.hp.btoe</groupId>
+		<artifactId>agora-parent</artifactId>
+		<version>10.00.00-SNAPSHOT</version>
+		<relativePath>../../parent</relativePath>
+	</parent>
+	<modules>
+		<module>ContentFlowManager</module>
+		<module>ContentPackManager</module>
+		<module>DataCollectorService</module>
+		<module>ETLService</module>
+	</modules>
+</project>
