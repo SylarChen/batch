@@ -1,0 +1,2 @@
+. `dirname $0`/setenv.sh
+. `dirname $0`/SetDomainProperties.sh
